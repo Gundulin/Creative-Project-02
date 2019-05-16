@@ -39,6 +39,8 @@ function resetButtons() {
     document.getElementById("?participants=4").style.backgroundColor= "navy";
     document.getElementById("?participants=5").style.backgroundColor= "navy";
 
+
+
     // document.getElementById("/").style.hover.backgroundColor= "rgba(0, 0, 128, 0.5)";
     // document.getElementById("?type=recreational").style.backgroundColor= "navy";
     // document.getElementById("?type=education").style.backgroundColor= "navy";
