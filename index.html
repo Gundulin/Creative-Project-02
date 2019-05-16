@@ -1,17 +1,46 @@
+
+
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Art thou bored?</title>
+    <title>I'm Bored</title>
     <link rel="stylesheet" href="./style.css">
     <script src="./script.js"></script>
 </head>
 <body>
+    <header>
+        <h1 id="theSuggestion">Are you Bored?</h1>
+    </header>
+    <div>         
+            <h2>What are you in the mood for?</h2>
+             <!-- Buttons -->
+            <div class="buttons" id="theButtons">
+                <button id="/" onclick="randSuggest('/')">Random Activity</button>
+                <button id="?type=recreational" onclick="randSuggest('?type=recreational')">Recreational Activity</button>
+                <button id="?type=education" onclick="randSuggest('?type=education')">Educational Activity</button>
+                <button id="?type=social" onclick="randSuggest('?type=social')">Social Activity</button>
+                <button id="?type=diy" onclick="randSuggest('?type=diy')">DIY Activity</button>
+                <button id="?type=charity" onclick="randSuggest('?type=charity')">Charity Activity</button>
+                <button id="?type=cooking" onclick="randSuggest('?type=cooking')">Cooking Activity</button>
+                <button id="?type=relaxation" onclick="randSuggest('?type=relaxation')">Relaxation Activity</button>
+                <button id="?type=music" onclick="randSuggest('?type=music')">Music Activity</button>
+                <button id="?type=busywork" onclick="randSuggest('?type=busywork')">Busywork Activity</button>
+            </div>
+            <h2>How many people in your Boredom Party?</h2>
+            <div id="participants">
+                <button id="?participants=1" onclick="randSuggest('?participants=1')">1</button>
+                <button id="?participants=2" onclick="randSuggest('?participants=2')">2</button>
+                <button id="?participants=3" onclick="randSuggest('?participants=3')">3</button>
+                <button id="?participants=4" onclick="randSuggest('?participants=4')">4</button>
+                <button id="?participants=5" onclick="randSuggest('?participants=5')">5</button>
+            </div>
+    </div>
 
 
 
     <!-- The Footer -->
     <footer>
-        <a href=""
+        <a id="github" href="https://github.com/Gundulin/Creative-Project-02">Github Repository</a> 
     </footer>
 </body>
 </html>
